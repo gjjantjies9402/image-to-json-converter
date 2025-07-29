@@ -82,15 +82,6 @@ The resulting JSON can be downloaded for use in your applications or APIs.
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Screenshot
-
-![App Screenshot](<img width="1846" height="521" alt="{8A55BE28-305F-4D90-B00C-A0581526D04B}" src="https://github.com/user-attachments/assets/c61b1516-338c-4274-9c3f-625d7ed4f716" />
-)
-
 ---
 
 **Note**: For production use, consider adding:
