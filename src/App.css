@@ -42,3 +42,57 @@ textarea {
 .preview img {
   max-width: 100%;
 }
+/* Mobile installation prompt */
+.install-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4CAF50;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.install-button {
+  background: white;
+  color: #4CAF50;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* iOS instructions */
+.ios-instructions {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  padding: 20px;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ios-instructions img {
+  width: 80%;
+  max-width: 300px;
+  margin: 20px 0;
+}
+
+.ios-instructions button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 4px;
+}
